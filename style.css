@@ -1,0 +1,298 @@
+@font-face {
+    font-family: "Kanit";
+    src: url(./Polices/Kanit-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none; 
+}
+
+body {
+    font-family: "Kanit";
+    background: url(./Images/background.jpg) no-repeat fixed;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+}
+
+/* NAVBAR */
+
+.navbar {
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar img {
+    height: 80px;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-links ul li {
+    margin: 30px;
+    width: 100px;
+}
+
+.navbar .nav-links ul li.active a {
+    color: #AD2ADA;
+    font-weight: 600;
+}
+
+.navbar .nav-links ul li a:hover {
+    color: #AD2ADA;
+    transition: all 0.5s ease;
+}
+
+.navbar .menu_button {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 45px;
+    width: 30px;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3vh;
+    color: white;
+    opacity: 0.5;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+}
+
+/* UNDER HEADER */
+
+.under_header {
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0px 30px 0px;
+}
+
+.under_header h1,
+.under_header p {
+    color: white;
+    text-align: center;
+}
+
+/* CONTENT */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img {
+    height: 300px;
+    border-radius: 50px;
+}
+
+.box p {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.one,
+.two { 
+    padding: 50px 20px 20px 20px;
+}
+
+.three {
+    padding: 50px 20px 100px 20px;
+}
+
+/* HISTOIRE */
+
+.history {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 30px 30px 30px;
+}
+
+.history .premier_match,
+.history .match_internationaux,
+.history .cdm,
+.history .can,
+.history .fin {
+    padding: 50px;
+}
+
+.fin {
+    padding: 100px 30px 30px 30px;
+}
+
+.history p {
+    width: 50%;
+    color: white;
+}
+
+.history img {
+    height: 250px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* CHRONOLOGIE */
+
+.chronologie {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 300px 30px 30px 30px;
+}
+
+.chronologie p {
+    color: white;
+}
+
+/* LEGENDES */
+
+.legendes h1,
+.legendes p {
+    padding: 15px;
+    width: 50%;
+    color: white;
+}
+
+.legendes img {
+    height: 350px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.pele,
+.messi,
+.zidane {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 30px 30px 30px;
+}
+
+.zidane {
+    padding: 100px 30px 100px 30px;
+}
+
+/* CLUBS */
+
+.clubs h1,
+.clubs p {
+    padding: 15px;
+    width: 50%;
+    color: white;
+}
+
+.clubs img {
+    height: 350px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.fc_barcelone,
+.manchester_united,
+.paris_sg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 30px 30px 30px;
+}
+
+.paris_sg {
+    padding: 100px 30px 100px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+/* @media screen and (max-width: 800px) {
+    .navbar {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar .menu_button {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        background-color: rgba(255, 255, 255, 0.062);
+        backdrop-filter: blur(5px);
+    }
+
+    .navbar .mobile-menu {
+        margin-left: 0;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-links ul li {
+        margin: 10px ;
+        font-size: 1.2em;
+    }   
+
+    .navbar img {
+        position: absolute;
+        top: 4vh;
+        left: 4vh;
+        height: 10vh;
+    }
+} */
